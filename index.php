@@ -10,7 +10,7 @@
     <div class="shapkaTop">
         <div class="otziv" onclick="window.location.href='otziv.html'">Отзывы</div>
         <div class="support" onclick="window.location.href='main.html'">Связаться с нами</div>
-        <div class="main" onclick="window.location.href='site.php'">Главная</div>
+        <div class="main" onclick="window.location.href='index.php'">Главная</div>
     </div>
 
     <div class="tovar">
