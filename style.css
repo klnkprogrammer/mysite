@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'MyCustomFont'; /* Название вашего шрифта */
+    src: url('font.ttf') format('truetype'); /* Форматы шрифта */
+    /* Дополнительные форматы, если нужно: */
+    /* url('путь_к_шрифту.eot') format('embedded-opentype'); */
+    /* url('путь_к_шрифту.svg#имя_шрифта') format('svg'); */
+}
+
+body {
+    background-color: #F2F3F5;
+    font-family: 'MyCustomFont';
+    margin: 0;
+    padding: 0;
+}
+
+.shapkaTop {
+    background-color: #353E48;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.otziv, .support, .main {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.tovar {
+    background-color: white;
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.airpodstext {
+    font-size: 22px;
+    font-weight: 700;
+    color: #353E48;
+    margin-bottom: 20px;
+}
+
+.btbackground {
+    background-color: #F2F3F5;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.characterstext {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.charactersmain {
+    color: #666674;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.characters {
+    color: #898989;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.text2, .text3, .text4 {
+    margin-top: 10px;
+}
+
+.buttonbuy {
+    background-color: #ff8600;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttonbuy:hover {
+    background-color: #ffa440;
+}
+
+.costtext, .cost, .costnotreal {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.cost {
+    color: #EB5757;
+    font-weight: 800;
+}
+
+.cost:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.costnotreal {
+    font-size: 21px;
+    font-weight: 600;
+    color: #AFAFAF;
+    text-decoration: line-through;
+}
+
+.airpods {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+.pop_up {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.pop_up_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pop_up_body {
+    margin: auto;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.pop_up_body p {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pop_up_body input {
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+    width: calc(100% - 20px);
+    padding: 15px;
+    background-color: #E5E5E5;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #89989F;
+}
+
+.pop_up_body input:focus {
+    outline: none;
+}
+
+.pop_up_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #888;
+}
+
+.pop_up_close:hover {
+    color: #333;
+}
+
+.buttonbuy2 {
+    background-color: #ff8600;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttonbuy2:hover {
+    background-color: #ffa440;
+}
+
+.otzivtext {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 50px 0;
+}
+
+.main:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.support:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.otziv:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

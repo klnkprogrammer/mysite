@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'MyCustomFont'; /* Название вашего шрифта */
+    src: url('font.ttf') format('truetype'); /* Форматы шрифта */
+    /* Дополнительные форматы, если нужно: */
+    /* url('путь_к_шрифту.eot') format('embedded-opentype'); */
+    /* url('путь_к_шрифту.svg#имя_шрифта') format('svg'); */
+}
+
+body {
+    background-color: #F2F3F5;
+    font-family: 'MyCustomFont';
+    margin: 0;
+    padding: 0;
+}
+
+.shapkaTop {
+    background-color: #353E48;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.otziv, .support, .main {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.empty{
+    font-size: 35px;
+    color: #666674;
+    display: absolute;
+    margin-left: 520px;
+    margin-top: 300px;
+}
+
+.main:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.support:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.otziv:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
